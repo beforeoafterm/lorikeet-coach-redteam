@@ -1,0 +1,62 @@
+<svg viewBox="0 0 860 450" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrI" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4348dc"/>
+    </marker>
+    <marker id="arrDk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="858" height="448" rx="16" fill="#fafafa" stroke="#e7e7e7"/>
+  <text x="32" y="46" font-size="20" font-weight="700" fill="#1a1a1a">Who red-teams the agent that modifies the agent?</text>
+  <text x="32" y="68" font-size="12.5" fill="#6f6f74">An adversarial panel on the change, not the runtime; per-change, not per-ticket</text>
+
+  <!-- change -->
+  <rect x="32" y="100" width="230" height="72" rx="12" fill="#ffffff" stroke="#c9c9d4"/>
+  <text x="147" y="130" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">Agent-authored edit</text>
+  <text x="147" y="150" font-size="11.5" fill="#6f6f74" text-anchor="middle">a workflow change, written and</text>
+  <text x="147" y="165" font-size="11.5" fill="#6f6f74" text-anchor="middle">simulation-tested by the system</text>
+
+  <path d="M 262 136 L 306 136" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arrDk)"/>
+
+  <!-- panel -->
+  <rect x="308" y="88" width="330" height="250" rx="14" fill="#eef0fd" stroke="#4348dc"/>
+  <text x="473" y="118" font-size="14.5" font-weight="700" fill="#4348dc" text-anchor="middle">Adversarial panel</text>
+
+  <rect x="328" y="134" width="290" height="42" rx="9" fill="#4348dc"/>
+  <text x="342" y="152" font-size="12" font-weight="700" fill="#ffffff">diff attacker</text>
+  <text x="342" y="168" font-size="11" fill="#dfe2ff">what did this REALLY change, beyond the stated intent</text>
+
+  <rect x="328" y="184" width="290" height="42" rx="9" fill="#ff29e5"/>
+  <text x="342" y="202" font-size="12" font-weight="700" fill="#ffffff">journey attacker</text>
+  <text x="342" y="218" font-size="11" fill="#ffe0fb">construct the customer path that exploits the new shape</text>
+
+  <rect x="328" y="234" width="290" height="42" rx="9" fill="#facb12"/>
+  <text x="342" y="252" font-size="12" font-weight="700" fill="#1a1a1a">rubric attacker</text>
+  <text x="342" y="268" font-size="11" fill="#4d4310">what does the eval suite not measure that this touches</text>
+
+  <rect x="328" y="284" width="290" height="38" rx="9" fill="#ffffff" stroke="#4348dc"/>
+  <text x="342" y="301" font-size="12" font-weight="700" fill="#4348dc">referee</text>
+  <text x="342" y="316" font-size="11" fill="#6f6f74">scores severity, renders the verdict</text>
+
+  <path d="M 638 213 L 682 213" stroke="#4348dc" stroke-width="1.8" marker-end="url(#arrI)"/>
+
+  <!-- gate + deploy -->
+  <rect x="684" y="160" width="144" height="106" rx="12" fill="#4348dc"/>
+  <text x="756" y="196" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">verdict gates the</text>
+  <text x="756" y="215" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">one-click deploy</text>
+  <text x="756" y="242" font-size="11" fill="#dfe2ff" text-anchor="middle">machine-speed review,</text>
+  <text x="756" y="257" font-size="11" fill="#dfe2ff" text-anchor="middle">human gate stays put</text>
+
+  <path d="M 756 266 L 756 306" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrDk)"/>
+  <text x="756" y="326" font-size="11.5" fill="#6f6f74" text-anchor="middle">transcripts archived</text>
+  <text x="756" y="341" font-size="11.5" fill="#6f6f74" text-anchor="middle">beside the QA trail</text>
+
+  <!-- what simulation misses -->
+  <rect x="32" y="360" width="796" height="56" rx="12" fill="#ffffff" stroke="#e7e7e7"/>
+  <text x="52" y="383" font-size="12" font-weight="700" fill="#1a1a1a">What simulation alone cannot catch:</text>
+  <text x="52" y="402" font-size="11.5" fill="#6f6f74">a verification step reordered off the rare path · an escalation threshold quietly widened · the measured rubric optimized against an unmeasured policy</text>
+
+  <text x="32" y="436" font-size="11.5" fill="#9a9aa2">Peer note from public writing · not affiliated with Lorikeet · July 2026</text>
+</svg>
