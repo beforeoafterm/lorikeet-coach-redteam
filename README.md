@@ -49,4 +49,4 @@ Lorikeet's public writing this note is grounded in (as of July 2026), which is w
 
 ---
 
-**Author:** Ronneil "N" Petterson, engineering leader, hands-on with agents. Manila. [beforeoafterm.io](https://beforeoafterm.io) · [LinkedIn](https://linkedin.com/in/beforeoafterm) · Related: [broker-copilot](https://github.com/beforeoafterm/broker-copilot), the 13-agent adversarial review method this note adapts.
+**Author:** Ronneil "N" Petterson, engineering leader, hands-on with agents. Manila. [beforeoafterm-io.vercel.app](https://beforeoafterm-io.vercel.app) · [LinkedIn](https://linkedin.com/in/beforeoafterm) · Related: [broker-copilot](https://github.com/beforeoafterm/broker-copilot), the 13-agent adversarial review method this note adapts.
